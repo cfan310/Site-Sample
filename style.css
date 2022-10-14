@@ -1,0 +1,27 @@
+body {
+  background: rgb(33, 146, 216);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.navBar {
+  height: 130px;
+  width: 100%;
+  display: flex;
+}
+
+.navLogo {
+  display: flex;
+  height: relative;
+  width: 30%;
+  font-family: Arial;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
