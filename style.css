@@ -24,4 +24,16 @@ body {
   font-size: 30px;
   justify-content: center;
   align-items: center;
+  color: rgb(234, 231, 231);
+}
+
+.navLinks {
+  color: white;
+  font: Arial;
+  text-decoration: none;
+  align-items: center;
+  justify-content: right;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
 }
