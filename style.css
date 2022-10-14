@@ -10,10 +10,16 @@ body {
   border: 2px solid red;
 }
 
+.scrollDown {
+  height: 220px;
+}
+
+/*sticky navbar*/
 .navBar {
   height: 130px;
   width: 100%;
   display: flex;
+  overflow: hidden;
 }
 
 .navLogo {
@@ -27,7 +33,8 @@ body {
   color: rgb(234, 231, 231);
 }
 
-.navLinks {
+.navBar a {
+  /*
   color: white;
   font: Arial;
   text-decoration: none;
@@ -36,4 +43,41 @@ body {
   font-size: 20px;
   font-weight: bold;
   display: flex;
+  overflow: hidden;
+  background-color: rgb(10, 23, 146);
+  */
+  float: left;
+  display: block;
+  color: white;
+  font: Arial;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navBar a:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: green;
+}
+
+/*
+.navBar a.active {
+  background-color: red; 
+}*/
+
+.container1 {
+  height: 400px;
+  display: block;
+  padding: 16px;
+}
+
+/*we can add the sticky class dynamically to javascript*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container1 {
+  padding-top: 60px;
 }
