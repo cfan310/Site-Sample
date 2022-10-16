@@ -16,3 +16,5 @@ function myFunction() {
     navbar.classList.remove('sticky');
   }
 }
+
+var mainForm;
